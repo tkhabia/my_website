@@ -22,6 +22,11 @@ p {
     line-height: 1.75;
 }
 
+.row1{
+    display: table; /* Make the container element behave like a table */
+    width: 100%;
+}
+
 p.large {
     font-size: 16px;
 }
@@ -896,5 +901,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #1ee2e7;
+    -webkit-tap-highlight-color: #1ee2e7;
 }
